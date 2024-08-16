@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins",sans-serif;
+    font-family: roboto;
 }
 
 body{
     overflow: hidden;
     width: 100%;
     border: 1px solid black;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -54,11 +54,11 @@ header{
     font-size: 1.12em;
     margin-right: 35px;
     font-size: 435;
-
+    transition: .8s ease-in-out;
 }
 
 .navigation a:hover{
-    color: rgb(36, 30, 30);
+    color: aqua;
 }
 
 .btn-talk{
